@@ -1,6 +1,6 @@
 def isprime(num):
 	i=2
-	while (i*i<num):
+	while (i*i<=num):
 		if (num%i==0):
 			print("number is not prime")
 			break
@@ -9,12 +9,12 @@ def isprime(num):
 		print("number is prime")
 
 def isperfect(num):
-	sum=0
+	sum=1
 	check=0
-	i=1
-	while (check!=i):
+	i=2
+	while (check!=i and i<num):
 		if(num%i==0):
-			check=i
+			check=num//i
 			sum=sum+i+num//i
 		i+=1
 	if (sum==num):
@@ -28,9 +28,9 @@ def isarmstrong(num):
 	for ch in string:
 		sum+=int(ch)**len(string)
 	if (sum==num):
-		print("num is armstrong")
+		print("number is armstrong")
 	else:
-		print("num is not armstrong")
+		print("number is not armstrong")
 
 def ispalindrome(num):
 	num=str(num)
@@ -43,9 +43,9 @@ def ispalindrome(num):
 
 def isautomorphic(num):
 	if((num**2)%10**len(str(num))==num):
-		print("is automorphic")
+		print("number is automorphic")
 	else:
-		print("is not automorphic")
+		print("number is not automorphic")
 
 
 
@@ -55,5 +55,3 @@ isperfect(num)
 isarmstrong(num)
 ispalindrome(num)
 isautomorphic(num)
-ispalindrome(num)
-
