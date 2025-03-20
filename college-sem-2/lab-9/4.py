@@ -1,6 +1,7 @@
-def sum_avg(a,b,c,d,e):
-    total=sum(locals().values())
-    avg=total/5
+def sum_avg(*args):
+    
+    total=sum(args)
+    avg=total/len(args)
     return total,avg
     
 
