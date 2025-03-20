@@ -1,11 +1,8 @@
-l=[]
 def binary(num):
     if num==0:
-        return l.reverse()
+        return num
     else:
-        l.append(num%2)
-        binary(num//2)
-        return l
-print(binary(23))
-# print l
+        return num%2+10*binary(num//2)
+print(binary(52))
+
     
