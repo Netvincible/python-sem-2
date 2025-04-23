@@ -1,0 +1,6 @@
+history
+HISTORY --HELP
+history --help
+HISTORY -A SHELL_HISTORY
+hisotry -a shell_history
+history -A shell_history

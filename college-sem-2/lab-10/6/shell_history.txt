@@ -1,0 +1,4 @@
+history
+history --help
+hisotry -a shell_history
+history -A shell_history

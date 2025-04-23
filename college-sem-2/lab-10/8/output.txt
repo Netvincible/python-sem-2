@@ -1,0 +1,3 @@
+Serialization of   Python type to JSON data is done using   function dump(). It writes   serialized data to   file.
+Deserialization of   JSON data to   Python type is done using   function load(). It reads   data from   file, converts   data and returns   converted data
+  ...

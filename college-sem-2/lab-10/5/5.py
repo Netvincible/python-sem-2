@@ -1,0 +1,5 @@
+fo=open("/home/netvincible/Documents/Python/college-sem-2/lab-10/5/shell_history.txt","r")
+fw=open("/home/netvincible/Documents/Python/college-sem-2/lab-10/5/shell.txt","w")
+fw.write(fo.read().upper())
+fw.close()
+fo.close()

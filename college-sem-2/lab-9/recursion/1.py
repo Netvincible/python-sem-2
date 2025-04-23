@@ -15,6 +15,6 @@ def prime_fact(num):
         a=prime_fact(num/x)
         if a!=None:
             l.append(a)
-            
+        
 prime_fact(4284)
 print(l)
